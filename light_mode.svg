@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #953800;}
+.value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #c2cfde;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f" class="ascii">
+<tspan x="15" y="30">            ;;,, ,;,|g;~,,                      </tspan>
+<tspan x="15" y="50">         ,g@@@@@@l&amp;$$$@|,w$$@gy,            </tspan>
+<tspan x="15" y="70">        $@@@@@@@@@@$@@@@@@@@$$MW$k              </tspan>
+<tspan x="15" y="90">       $$@@@@@@B@@@@@@@@@@@@@$@$$g,$            </tspan>
+<tspan x="15" y="110">     g@llM**'''||%@@@@@$@@$@@@@@@@L$&amp;      </tspan>
+<tspan x="15" y="130">   @$&amp;$F         ''T%M$@@@@@@@@@@@$@$@     </tspan>
+<tspan x="15" y="150">  @@@@F              ']@@@@@@$$@$@@@@          </tspan>
+<tspan x="15" y="170">  @@@$L               |$@@@$$l$@@@@$F          </tspan>
+<tspan x="15" y="190"> ]@@@@L ,@@$@@@@L  ,l@$$$$$$$$$@@@@@           </tspan>
+<tspan x="15" y="210">  %$@@@$}',,gg@||@@@@l@g@ggg|l$&amp;$@@$       </tspan>
+<tspan x="15" y="230">  ]@@@@@'"*TTTTT'F  ]Wl|||''"'$]@@@@ </tspan>
+<tspan x="15" y="250">   $$@M$       ,#    ]gg,,,,,.r'$@$            </tspan>
+<tspan x="15" y="270">    &amp;$L        ' ,, ,,,'T''`    $$L        </tspan>
+<tspan x="15" y="290">     lL         T"||||!   `-    l"'  </tspan>
+<tspan x="15" y="310">     ' |        '||l||||"|L|  L `         </tspan>
+<tspan x="15" y="330">      ''   '|L++=*****""*"||` L|</tspan>
+<tspan x="15" y="350">        |           ,,      |||F               </tspan>
+<tspan x="15" y="370">        '         |||||||| ||l$                </tspan>
+<tspan x="15" y="390">          !                |l&amp;L            </tspan>
+<tspan x="15" y="410">           '!,       |||,||@M|L                </tspan>
+<tspan x="15" y="430">            ||l&amp;$@$$@$$$@$MT|||            </tspan>
+<tspan x="15" y="450">         |    |||lll$$llll|||||L               </tspan>
+<tspan x="15" y="470">    ,;y@        ||||||l||@|||||l               </tspan>
+<tspan x="15" y="490">,g$@$$$@         |||||||||||||||| $g,          </tspan>
+<tspan x="15" y="510">$$$$$$$$@    |    |||||||||||||| |$$@g         </tspan>
+</text>
+<text x="390" y="30" fill="#24292f">
+<tspan x="390" y="30">nirvik@github</tspan> -————————————————————————————————————————————
+<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 11, Linux, Android</tspan>
+<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">19 years</tspan>
+<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">VIT Chennai</tspan>
+<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">CSE (AI &amp; Robotics)</tspan>
+<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">VS Code, PyCharm, Jupyter</tspan>
+
+<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, JavaScript, Java, C++</tspan>
+<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS, JSON, YAML</tspan>
+<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English, Hindi</tspan>
+
+<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Machine Learning, Hackathons, AI Projects</tspan>
+<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Robotics, Arduino, Sensors</tspan>
+
+<tspan x="390" y="310">- GitHub Stats</tspan> -—————————————————————————————————————————
+<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">nirvik34</tspan>
+<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">22</tspan>
+<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">17</tspan>
+<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">5</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">8</tspan>
+
+<tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
+</text>
+</svg>
