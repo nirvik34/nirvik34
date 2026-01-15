@@ -63,7 +63,7 @@ text, tspan {white-space: pre;}
 <tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">22</tspan>
 <tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">17</tspan>
 <tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">5</tspan>
-<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">8</tspan>
+<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
 
 <tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
 </text>
