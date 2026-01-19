@@ -18,20 +18,20 @@ text, tspan {white-space: pre;}
 .s2 { animation: s2v 80s linear infinite; }
 .s3 { animation: s3v 80s linear infinite; }
 .s4 { animation: s4v 80s linear infinite; }
-@keyframes s1v { 0% {opacity:1} 24% {opacity:1} 25% {opacity:0} 100% {opacity:0} }
-@keyframes s2v { 0% {opacity:0} 24% {opacity:0} 25% {opacity:1} 49% {opacity:1} 50% {opacity:0} 100% {opacity:0} }
-@keyframes s3v { 0% {opacity:0} 49% {opacity:0} 50% {opacity:1} 74% {opacity:1} 75% {opacity:0} 100% {opacity:0} }
-@keyframes s4v { 0% {opacity:0} 74% {opacity:0} 75% {opacity:1} 100% {opacity:1} }
+@keyframes s1v { 0% {opacity:1} 39% {opacity:1} 40% {opacity:0} 100% {opacity:0} }
+@keyframes s2v { 0% {opacity:0} 39% {opacity:0} 40% {opacity:1} 59% {opacity:1} 60% {opacity:0} 100% {opacity:0} }
+@keyframes s3v { 0% {opacity:0} 59% {opacity:0} 60% {opacity:1} 69% {opacity:1} 70% {opacity:0} 100% {opacity:0} }
+@keyframes s4v { 0% {opacity:0} 69% {opacity:0} 70% {opacity:1} 100% {opacity:1} }
 .apple1 { animation: a1v 80s linear infinite; }
 .apple2 { animation: a2v 80s linear infinite; }
 .apple3 { animation: a3v 80s linear infinite; }
-@keyframes a1v { 0% {opacity:1} 23% {opacity:1} 25% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
-@keyframes a2v { 0% {opacity:1} 48% {opacity:1} 50% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
-@keyframes a3v { 0% {opacity:1} 73% {opacity:1} 75% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
+@keyframes a1v { 0% {opacity:1} 39% {opacity:1} 40% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
+@keyframes a2v { 0% {opacity:1} 59% {opacity:1} 60% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
+@keyframes a3v { 0% {opacity:1} 69% {opacity:1} 70% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
 </style>
 <rect width="1500px" height="530px" fill="#161b22" rx="15"/>
 <defs>
-<path id="snakePath" d="M -100 40 H 1600 Q 1700 40 1700 95 Q 1700 150 1600 150 H -100 Q -200 150 -200 205 Q -200 260 -100 260 H 1600 Q 1700 260 1700 315 Q 1700 370 1600 370 H -100 Q -200 370 -200 425 Q -200 480 -100 480 H 1600" fill="none" />
+<path id="snakePath" d="M -200 50 L 1100 50 Q 1275 50 1275 155 Q 1275 265 1100 265 L 550 265 Q 400 265 400 320 Q 400 375 550 375 L 1700 375" fill="none" />
 </defs>
 
 <!-- Apples -->
