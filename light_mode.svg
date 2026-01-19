@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1500px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="830px" height="530px" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -14,57 +14,64 @@ size-adjust: 109%;
 .delColor {fill: #cf222e;}
 .cc {fill: #c2cfde;}
 text, tspan {white-space: pre;}
+.s1 { animation: s1v 50s linear infinite; }
+.s2 { animation: s2v 50s linear infinite; }
+.s3 { animation: s3v 50s linear infinite; }
+.s4 { animation: s4v 50s linear infinite; }
+@keyframes s1v { 0% {opacity:1} 35% {opacity:1} 36% {opacity:0} 100% {opacity:0} }
+@keyframes s2v { 0% {opacity:0} 35% {opacity:0} 36% {opacity:1} 58% {opacity:1} 59% {opacity:0} 100% {opacity:0} }
+@keyframes s3v { 0% {opacity:0} 58% {opacity:0} 59% {opacity:1} 75% {opacity:1} 76% {opacity:0} 100% {opacity:0} }
+@keyframes s4v { 0% {opacity:0} 75% {opacity:0} 76% {opacity:1} 100% {opacity:1} }
+.apple1 { animation: a1v 50s linear infinite; }
+.apple2 { animation: a2v 50s linear infinite; }
+.apple3 { animation: a3v 50s linear infinite; }
+@keyframes a1v { 0% {opacity:1} 35% {opacity:1} 36% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
+@keyframes a2v { 0% {opacity:1} 58% {opacity:1} 59% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
+@keyframes a3v { 0% {opacity:1} 75% {opacity:1} 76% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
 </style>
-<rect width="1500px" height="530px" fill="#f6f8fa" rx="15"/>
-<text x="15" y="30" fill="#24292f" class="ascii">
-<tspan x="15" y="30">            ;;,, ,;,|g;~,,                      </tspan>
-<tspan x="15" y="50">         ,g@@@@@@l&amp;$$$@|,w$$@gy,            </tspan>
-<tspan x="15" y="70">        $@@@@@@@@@@$@@@@@@@@$$MW$k              </tspan>
-<tspan x="15" y="90">       $$@@@@@@B@@@@@@@@@@@@@$@$$g,$            </tspan>
-<tspan x="15" y="110">     g@llM**'''||%@@@@@$@@$@@@@@@@L$&amp;      </tspan>
-<tspan x="15" y="130">   @$&amp;$F         ''T%M$@@@@@@@@@@@$@$@     </tspan>
-<tspan x="15" y="150">  @@@@F              ']@@@@@@$$@$@@@@          </tspan>
-<tspan x="15" y="170">  @@@$L               |$@@@$$l$@@@@$F          </tspan>
-<tspan x="15" y="190"> ]@@@@L ,@@$@@@@L  ,l@$$$$$$$$$@@@@@           </tspan>
-<tspan x="15" y="210">  %$@@@$}',,gg@||@@@@l@g@ggg|l$&amp;$@@$       </tspan>
-<tspan x="15" y="230">  ]@@@@@'"*TTTTT'F  ]Wl|||''"'$]@@@@ </tspan>
-<tspan x="15" y="250">   $$@M$       ,#    ]gg,,,,,.r'$@$            </tspan>
-<tspan x="15" y="270">    &amp;$L        ' ,, ,,,'T''`    $$L        </tspan>
-<tspan x="15" y="290">     lL         T"||||!   `-    l"'  </tspan>
-<tspan x="15" y="310">     ' |        '||l||||"|L|  L `         </tspan>
-<tspan x="15" y="330">      ''   '|L++=*****""*"||` L|</tspan>
-<tspan x="15" y="350">        |           ,,      |||F               </tspan>
-<tspan x="15" y="370">        '         |||||||| ||l$                </tspan>
-<tspan x="15" y="390">          !                |l&amp;L            </tspan>
-<tspan x="15" y="410">           '!,       |||,||@M|L                </tspan>
-<tspan x="15" y="430">            ||l&amp;$@$$@$$$@$MT|||            </tspan>
-<tspan x="15" y="450">         |    |||lll$$llll|||||L               </tspan>
-<tspan x="15" y="470">    ,;y@        ||||||l||@|||||l               </tspan>
-<tspan x="15" y="490">,g$@$$$@         |||||||||||||||| $g,          </tspan>
-<tspan x="15" y="510">$$$$$$$$@    |    |||||||||||||| |$$@g         </tspan>
+<rect width="830px" height="530px" fill="#f6f8fa" rx="15"/>
+<defs>
+<path id="snakePath" d="M -50 50 L 600 50 Q 750 50 750 155 Q 750 265 600 265 L 250 265 Q 100 265 100 320 Q 100 375 250 375 L 950 375" fill="none" />
+</defs>
+
+<!-- Apples -->
+<text x="750" y="155" fill="#f85149" font-family="monospace" font-size="20" class="apple1"></text>
+<text x="250" y="265" fill="#f85149" font-family="monospace" font-size="20" class="apple2"></text>
+<text x="400" y="375" fill="#f85149" font-family="monospace" font-size="20" class="apple3"></text>
+
+<!-- Snake -->
+<text fill="#3fb950" font-family="monospace" font-size="18" font-weight="bold" text-anchor="end">
+<textPath href="#snakePath" startOffset="0%">
+<animate attributeName="startOffset" from="0%" to="100%" dur="50s" repeatCount="indefinite" />
+<tspan class="s1">:>O</tspan>
+<tspan class="s2" dx="-32.4">:::::::>O</tspan>
+<tspan class="s3" dx="-97.2">::::::::::::::::>O</tspan>
+<tspan class="s4" dx="-183.6">::::::::::::::::::::::::>O</tspan>
+</textPath>
 </text>
-<text x="390" y="30" fill="#24292f">
-<tspan x="390" y="30">nirvik34@github.com</tspan> -—————————————————————————————————————————————————————————————————————————————————————————————————————
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">Windows 11, Linux, Android</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">19 years</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .............................................. </tspan><tspan class="value">VIT Chennai</tspan>
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">CSE (AI and Robotics)</tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">VS Code, PyCharm, Jupyter</tspan>
 
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Python, C++, C#, C, JavaScript, Java, GDScript</tspan>
-<tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">HTML, CSS, JSON, API, React, TypeScript</tspan>
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">English, Hindi</tspan>
+<text x="30" y="30" fill="#24292f">
+<tspan x="30" y="30">nirvik34@github.com</tspan> -———————————————————————————————————————————————————————————————
+<tspan x="30" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................................ </tspan><tspan class="value">Windows 11, Linux, Android</tspan>
+<tspan x="30" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">19 years</tspan>
+<tspan x="30" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .............................................. </tspan><tspan class="value">VIT Chennai</tspan>
+<tspan x="30" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">CSE (AI and Robotics)</tspan>
+<tspan x="30" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">VS Code, PyCharm, Jupyter</tspan>
 
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">AI/ML, Hackathons, Competitive Programming</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">—</tspan>
+<tspan x="30" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">Python, C++, C#, C, JavaScript, Java, GDScript</tspan>
+<tspan x="30" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">HTML, CSS, JSON, API, React, TypeScript</tspan>
+<tspan x="30" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">English, Hindi</tspan>
 
-<tspan x="390" y="310">- GitHub Stats</tspan> -——————————————————————————————————————————————————————————————————————————————————————————————————————
-<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">nirvik34</tspan>
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">22</tspan>
-<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">17</tspan>
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">5</tspan>
-<tspan x="390" y="410" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
+<tspan x="30" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">AI/ML, Hackathons, Competitive Programming</tspan>
+<tspan x="30" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">—</tspan>
 
-<tspan x="390" y="450" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
+<tspan x="30" y="310">- GitHub Stats</tspan> -————————————————————————————————————————————————————————————————
+<tspan x="30" y="330" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">nirvik34</tspan>
+<tspan x="30" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">22</tspan>
+<tspan x="30" y="370" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">17</tspan>
+<tspan x="30" y="390" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">5</tspan>
+<tspan x="30" y="410" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
+
+<tspan x="30" y="450" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
 </text>
 </svg>
