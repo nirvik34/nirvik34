@@ -31,7 +31,7 @@ text, tspan {white-space: pre;}
 </style>
 <rect width="830px" height="530px" fill="#f6f8fa" rx="15"/>
 <defs>
-<path id="snakePath" d="M -50 50 L 600 50 Q 750 50 750 155 Q 750 265 600 265 L 250 265 Q 100 265 100 320 Q 100 375 250 375 L 950 375" fill="none" />
+<path id="snakePath" d="M -50 50 L 600 50 Q 750 50 750 155 Q 750 265 600 265 L 250 265 Q 100 265 100 320 Q 100 375 250 375 L 950 375" fill="none"/>
 </defs>
 
 <!-- Apples -->
@@ -42,11 +42,11 @@ text, tspan {white-space: pre;}
 <!-- Snake -->
 <text fill="#3fb950" font-family="monospace" font-size="18" font-weight="bold" text-anchor="end">
 <textPath href="#snakePath" startOffset="0%">
-<animate attributeName="startOffset" from="0%" to="100%" dur="50s" repeatCount="indefinite" />
-<tspan class="s1">:>O</tspan>
-<tspan class="s2" dx="-32.4">:::::::>O</tspan>
-<tspan class="s3" dx="-97.2">::::::::::::::::>O</tspan>
-<tspan class="s4" dx="-183.6">::::::::::::::::::::::::>O</tspan>
+<animate attributeName="startOffset" from="0%" to="100%" dur="50s" repeatCount="indefinite"/>
+<tspan class="s1">:&gt;O</tspan>
+<tspan class="s2" dx="-32.4">:::::::&gt;O</tspan>
+<tspan class="s3" dx="-97.2">::::::::::::::::&gt;O</tspan>
+<tspan class="s4" dx="-183.6">::::::::::::::::::::::::&gt;O</tspan>
 </textPath>
 </text>
 
@@ -67,9 +67,9 @@ text, tspan {white-space: pre;}
 
 <tspan x="30" y="310">- GitHub Stats</tspan> -————————————————————————————————————————————————————————————————
 <tspan x="30" y="330" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">nirvik34</tspan>
-<tspan x="30" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">22</tspan>
-<tspan x="30" y="370" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">17</tspan>
-<tspan x="30" y="390" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">5</tspan>
+<tspan x="30" y="350" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">28</tspan>
+<tspan x="30" y="370" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">16</tspan>
+<tspan x="30" y="390" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">6</tspan>
 <tspan x="30" y="410" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
 
 <tspan x="30" y="450" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
