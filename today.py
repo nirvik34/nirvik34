@@ -126,10 +126,15 @@ def safe_svg_update(filename, stats):
 if __name__ == "__main__":
     start = time.perf_counter()
 
-    stats = load_cache()
+    force = os.environ.get("FORCE_UPDATE") == "true"
+    stats = load_cache() if not force else None
+    
     if not stats:
+        print("Fetching fresh stats from GitHub...")
         stats = fetch_stats(USER_NAME)
         save_cache(stats)
+    else:
+        print("Using cached stats (skipping API calls).")
 
     safe_svg_update("dark_mode.svg", stats)
     safe_svg_update("light_mode.svg", stats)
