@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1500px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" viewBox="0 0 1500 530" font-size="16px">
 <style>
 @font-face {
 src: local('Consolas'), local('Consolas Bold');
@@ -29,7 +29,7 @@ text, tspan {white-space: pre;}
 @keyframes a2v { 0% {opacity:1} 59% {opacity:1} 60% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
 @keyframes a3v { 0% {opacity:1} 69% {opacity:1} 70% {opacity:0} 95% {opacity:0} 100% {opacity:1} }
 </style>
-<rect width="1500px" height="530px" fill="#161b22" rx="15"/>
+<rect width="100%" height="100%" fill="#161b22" rx="15"/>
 <defs>
 <path id="snakePath" d="M -200 50 L 1100 50 Q 1275 50 1275 155 Q 1275 265 1100 265 L 550 265 Q 400 265 400 320 Q 400 375 550 375 L 1700 375" fill="none"/>
 </defs>
@@ -66,14 +66,14 @@ text, tspan {white-space: pre;}
 <tspan x="30" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">—</tspan>
 
 <tspan x="30" y="310">- GitHub Stats</tspan> -——————————————————————————————————————————————————————————————————————————————————————————————————————
-<tspan x="30" y="330" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">nirvik34</tspan>
-<tspan x="30" y="325" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value" id="commit_data">0</tspan>
-<tspan x="30" y="345" class="cc">. </tspan><tspan class="key">Contribs</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="contrib_data">0</tspan>
-<tspan x="30" y="365" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">28</tspan>
-<tspan x="30" y="385" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">16</tspan>
-<tspan x="30" y="405" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">6</tspan>
-<tspan x="30" y="425" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
+<tspan x="30" y="325" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">nirvik34</tspan>
+<tspan x="30" y="345" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value" id="commit_data">0</tspan>
+<tspan x="30" y="365" class="cc">. </tspan><tspan class="key">Contribs</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="contrib_data">0</tspan>
+<tspan x="30" y="385" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">28</tspan>
+<tspan x="30" y="405" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">16</tspan>
+<tspan x="30" y="425" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">6</tspan>
+<tspan x="30" y="445" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
 
-<tspan x="30" y="450" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
+<tspan x="30" y="480" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
 </text>
 </svg>
