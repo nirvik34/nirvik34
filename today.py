@@ -13,24 +13,39 @@ if not TOKEN:
     raise RuntimeError("ACCESS_TOKEN not set")
 
 USER_NAME = os.environ.get("USER_NAME", "nirvik34")
-HEADERS = {"Authorization": f"Bearer {TOKEN}"}
 
 CACHE_FILE = "cache_daily.json"
 API_CALLS = 0
 
-
 def gql(query, variables):
     global API_CALLS
     API_CALLS += 1
+    
+    # Using 'token' prefix often works more reliably for classic PATs in GraphQL
+    headers = {"Authorization": f"token {TOKEN}"}
+    
     r = requests.post(
         "https://api.github.com/graphql",
         json={"query": query, "variables": variables},
-        headers=HEADERS,
+        headers=headers,
         timeout=20,
     )
+    
+    if r.status_code == 401:
+        raise RuntimeError(
+            "\n[!] GitHub API Error: Bad credentials (401).\n"
+            "This usually means your ACCESS_TOKEN is expired or invalid.\n"
+            "Verify the secret in your repository settings and ensure it has 'repo' and 'read:user' scopes."
+        )
+    
     if r.status_code != 200:
-        raise RuntimeError(r.text)
-    return r.json()["data"]
+        raise RuntimeError(f"GitHub API Error ({r.status_code}): {r.text}")
+        
+    res = r.json()
+    if "errors" in res:
+        raise RuntimeError(f"GraphQL Errors: {json.dumps(res['errors'], indent=2)}")
+        
+    return res["data"]
 
 
 def load_cache():
