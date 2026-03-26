@@ -71,8 +71,8 @@ text, tspan {white-space: pre;}
 <tspan x="30" y="365" class="cc">. </tspan><tspan class="key">Contribs</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="contrib_data">16</tspan>
 <tspan x="30" y="385" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">36</tspan>
 <tspan x="30" y="405" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">44</tspan>
-<tspan x="30" y="425" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">7</tspan>
-<tspan x="30" y="445" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">8</tspan>
+<tspan x="30" y="425" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ....................... </tspan><tspan class="value" id="follower_data">10</tspan>
+<tspan x="30" y="445" class="cc">. </tspan><tspan class="key">Following</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="following_data">10</tspan>
 
 <tspan x="30" y="480" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value">AI • ML • Robotics • Systems</tspan>
 </text>
