@@ -67,7 +67,7 @@ text, tspan {white-space: pre;}
 
 <tspan x="30" y="310">- GitHub Stats</tspan> -——————————————————————————————————————————————————————————————————————————————————————————————————————
 <tspan x="30" y="325" class="cc">. </tspan><tspan class="key">Username</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">nirvik34</tspan>
-<tspan x="30" y="345" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value" id="commit_data">409</tspan>
+<tspan x="30" y="345" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value" id="commit_data">407</tspan>
 <tspan x="30" y="365" class="cc">. </tspan><tspan class="key">Contribs</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value" id="contrib_data">15</tspan>
 <tspan x="30" y="385" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ............................ </tspan><tspan class="value" id="repo_data">39</tspan>
 <tspan x="30" y="405" class="cc">. </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ........................... </tspan><tspan class="value" id="star_data">44</tspan>
